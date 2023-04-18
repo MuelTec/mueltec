@@ -10,7 +10,14 @@
     font-family: 'Caveat',sans-serif;
 }
 
+body {
+    background-image: url(/assets/img/coding-1920x1080.jpg);
+    background-size: cover;
+
+}
+
 .nav-bar {
+    background: rgb(71, 63, 63);
     display: flex;
     justify-content: space-between;
     padding-bottom: 1.5rem 6rem;
@@ -37,7 +44,7 @@
 }
 
 .nav-link {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.15rem;
     font-weight: 400px;
