@@ -78,6 +78,7 @@ header {
 
 .mobile-menu {
     display: none;
+    color: #FFF;
 }
 
 @media screen and (max-width: 730px) {
@@ -120,29 +121,3 @@ header {
     }
 }
 
-
-
-/*.noiticias {
-    position: relative;
-    height: 90vh;
-
-    display: flex;
-    justify-content: center;
-}*/
-
-.conteudo {
-    color: #FFF;
-    padding: 5px;
-
-    border: 1px solid white;
-    border-radius: 2px;
-    margin: 10px;
-    width: 300px;
-    height: 300px;
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-}

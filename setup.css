@@ -78,6 +78,7 @@ header {
 
 .mobile-menu {
     display: none;
+    color: #FFF;
 }
 
 @media screen and (max-width: 730px) {
