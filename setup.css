@@ -122,39 +122,11 @@ header {
 }
 
 
-
-/*.noiticias {
-    position: relative;
-    height: 90vh;
-
-    display: flex;
-    justify-content: center;
-}*/
-
-/*.conteudo {
-    color: #FFF;
-    padding: 5px;
-
-    border: 1px solid white;
-    border-radius: 2px;
-    margin: 10px;
-    width: 600px;
-    height: 300px;
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-}*/
-
 .child {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    padding: 16px;
+    grid-template-columns: auto auto auto;
     gap: 16px;
-    padding: 24px;
-    max-width: 1366px;
-    
 }
 
 .card {
@@ -162,6 +134,7 @@ header {
     background-color: #CB2026;
     border-radius: 16px;
     text-align: center;
+    
 
 }
 
