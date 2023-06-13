@@ -2,47 +2,22 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mueltec Setup</title>
+    <title>mueltec1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="assets/img/icone2.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="setup.css">
+    <link rel="stylesheet" href="setup1.css">
 </head>
 <body>
-    
-    <header>
-        <div class="nav-bar">
-            <div class="logo">
-                    <img src="assets/img/icon.webp" alt="icone logo">
-            </div>
-
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"> <a href="index.html" class="nav-link">HOME</a></li>
-                    <li class="nav-item"> <a href="setup.html" class="nav-link">SETUP</a></li>
-                </ul>
-            </div>
-
-            <div class="login-button">
-                <button><a href="https://www.instagram.com/mueltec/" target="_blank">Instagram</a></button>
-            </div>
-
-            <div class="mobile-menu-icon">
-                <button onclick="menuMobi()">
-                    <img class="icon" src="assets/img/menu_white_36dp.svg">
-                </button>
-            </div>
-
-        </div>
-
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"> <a href="index.html" class="nav-link">HOME</a></li>
-                <li class="nav-item"> <a href="setup.html" class="nav-link">SETUP</a></li>
-            </ul>
-        </div>
-        
-    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">Setup</a>
+        <a href="#contact">Instagram</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
     <div class="child">
         <div class="card">
@@ -110,7 +85,15 @@
         </div>
 
 
-    </div>
-    <script src="assets/js/produtos.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
 </body>
 </html>
