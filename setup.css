@@ -139,7 +139,7 @@ header {
 /* observação*/
 
 @media (max-width: 600px) {
-    .container {
+    .child {
         padding: 16px;
     }
 }
