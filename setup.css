@@ -9,8 +9,7 @@
 }
 
 body {
-    background-image: url(assets/img/coding-1920x1080.jpg);
-    background-size: cover;
+    background-color: black;
 }
 
 header {
@@ -134,7 +133,6 @@ header {
     background-color: #CB2026;
     border-radius: 16px;
     text-align: center;
-    
 
 }
 
