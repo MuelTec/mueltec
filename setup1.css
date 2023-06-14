@@ -154,7 +154,7 @@ ul {
     width: 350px;
     height: 500px;
     flex: 300px;
-    background-color: #CB2026;
+    background-color: #24252a;
     border-radius: 16px;
     text-align: center;
 
@@ -181,7 +181,7 @@ ul {
 }
 
 .description p {
-    color: #F29422;
+    color: white;
     font-size: .8em;
 }
 
