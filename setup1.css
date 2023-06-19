@@ -84,8 +84,6 @@ header {
     place-items: center;
     grid-template-columns: auto auto auto;
     gap: 16px;
-
-
 }
 
 
@@ -128,7 +126,8 @@ header {
         display:block;
     }
     .card {
-        margin: 20px;
+        margin: 30px;
+
     }
 
 }
