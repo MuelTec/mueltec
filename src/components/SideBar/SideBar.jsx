@@ -9,9 +9,11 @@ import Favoritos from '../Favoritos/Favoritos';
 import Bottom from '../Bottom/Bottom';
 
 const SideBar = () => {
+
   return (
-    <nav className="sidebar close">
+    <nav className="sidebar">
       <Logo/>
+      {/* sidebar close */}
       <div className="menu-bar">
         <div className="menu">
           <Search />

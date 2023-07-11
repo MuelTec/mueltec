@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../imagens/logo.jpg';
 
 const Logo = () => {
+  
   return (
     <div>
       <header>
